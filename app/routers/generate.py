@@ -4,6 +4,7 @@ from app import schemas, services
 from app.database import get_db
 from app.auth import verify_token
 from app.services.threat_scenario import generate_thread_id
+from app.schemas.auth import User
 
 router = APIRouter()
 
